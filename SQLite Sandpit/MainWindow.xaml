@@ -1,12 +1,14 @@
-﻿<Window x:Class="SQLite_Sandpit.MainWindow"
+﻿<Window x:Name="F_MAIN" x:Class="SQLite_Sandpit.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SQLite_Sandpit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="SQLite Sandpit" Height="450" Width="800" Background="#FFD8DAF3">
     <Grid>
+        <Label x:Name="LAB_HEAD" Content="SQLite Sandpit" HorizontalAlignment="Left" Margin="19,18,0,0" VerticalAlignment="Top" FontFamily="Verdana" FontSize="14"/>
+        <Button x:Name="BTN_TEST" Content="Test" HorizontalAlignment="Left" Margin="45,80,0,0" VerticalAlignment="Top" Height="31" Width="54" Click="BTN_TEST_Click"/>
 
     </Grid>
 </Window>
